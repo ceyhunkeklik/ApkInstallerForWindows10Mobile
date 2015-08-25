@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="APK to Win10M.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="win.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="APK to Win10M" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="APK to Win10M.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="APK to Win10M.exe" size="2947040">
+      <assemblyIdentity name="APK to Win10M" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>koD741cw4fyXjfMgxENaK6QYxdahMfuzXe3gRGjRFuI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="APK to Win10M.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="IpOverUsbInstaller.msi" size="229376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>duYuEo7qqcACwkQ72kJfscSBe4PhEMoWPUWmXeubuSg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="libeay32.dll" size="1172480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hn9ekUXUWV9n2ZUn4FcmsxwHBVKRZaQ+wo0EKVvr1Xs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\adb.exe" size="1011200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>io9rsnLvOdzsauk8zKLMM5wMjen9/fpsqKoTeIE8eQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\AdbWinApi.dll" size="96256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FKUUgqoAPbeaQA9LFcFYOX/m1X7mYGs9Yz+kMae/30s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\AdbWinUsbApi.dll" size="60928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BBxoWbtPx406kD3ZASmM0ez7dba+Bka3SVTNciKApAc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\dmtracedump.exe" size="73728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>POPjbePHbyBPFCgOtSnkzrKam6fFrI4aWiRRGPMyN5Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\etc1tool.exe" size="338944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VJWb/46iizfukcTuwqZJbCOI6OO9PbbiIsyGafsnQUY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\fastboot.exe" size="196608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aFClxw7A2NjiN53tlQ3tsb1QKcCa+jxrYHFcXWakKr4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\hprof-conv.exe" size="43008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HnOOJx/OlZ732AFec2cIPRA2lUXw+ULarZD1IbRk3OE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\NOTICE.txt" size="816004">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iLveP6xj9XjDpCqesB0+zx5lp4WHYfI6MZq1ByaYwEw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\source.properties" size="39">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QwJryEByIKF3jm3Nuc540IhIuqBDoVmao9SXUuu/Zk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\sqlite3.exe" size="700928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RFpozMueTONQpICOoWBatGITAkGkPmGSJCJcHNblXMk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\systrace\prefix.html" size="791">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M4OfEIXhvONbyqQIYjMFRXdznBre5slTZ+BklLeh8vM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\systrace\script.js" size="263795">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QJQv+zhY0uBVO9Adt/eeKzBEMwD7MiBIi25EE8CNiV0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\systrace\style.css" size="25031">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0jHukoh7/a2NoL88CDhkJfuwRMilzYa21NQWDhNRUeM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="platform-tools\systrace\suffix.html" size="52">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H+3tTD2nZGp3lLvmIvUCYgqVLnq9NaqRpqKmSK9eBiQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ssleay32.dll" size="270848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mdqN9EjFw9OL1UxxO8tf/W96Hnpm8T+W5JdhU+QBUFk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vcredist_x86.exe" size="6503984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oiiV5VsmIC6uFmg47b4upqrQDX6mAMEfijHt5cvOIEg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Version.txt" size="14">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M/nFvezaaXFHAXDjvLPs4qa/1v4gCxG/zSulGfiAFVA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="wconnect.exe" size="147456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LapSkIuKoaL4Q7EojXNY98CHbmxb0z/k+iNAYRgTPyc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="wconnectsrv.exe" size="308224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HrY4o0FZfOlUYWrgKo4ZUqlrkfiR2Q0hnBtmALdlHu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="win.ico" size="4456">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U3iUxO9UA+cuWRBagJnbyaRjX65zFCh3Xq1G2Fh6KoY=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
