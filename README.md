@@ -1,3 +1,5 @@
+# This application is not working now. Because Microsoft disabled Project Astoria for mobile.
+
 # APK Installer For Windows 10 Mobile
 
 Hi everyone,
